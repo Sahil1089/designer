@@ -1,0 +1,281 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width:100%;
+    color: #fff;
+    background-color: black;
+    
+
+}
+.main{
+    width:100%;
+
+}
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    color:#fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.nav{
+    width: 100%;
+    height:4vh;
+    background-color: black;
+    padding:40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+   
+  
+
+}
+ .nav{
+    position: fixed;
+}
+.nav a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1vw;
+   
+
+    
+}
+.home{
+    position:relative;
+}
+.nav h3{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+.headings{
+    margin-top: 90px;
+}
+.headings h1{
+    font-size: 9vw;
+    font-weight: 600;
+    line-height: 1;
+    opacity: 0.8;
+    margin-left: 35px;
+    
+
+
+}
+.headings  #head2{
+    margin-left:350px;
+}
+.textblock{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.textblock h5{
+    text-align: right;
+    font-size: 1.7vw;
+    color: #fff;
+    opacity: 0.6;
+
+
+}
+.minihead{
+    margin-top: 100px;
+    padding-right: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    overflow: hidden;
+}
+.minihead h5{
+    text-align: right;
+    font-size: 1.5vw;
+    color: #fff;
+    opacity:0.8;
+}
+.herofooter{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 1vh;
+    margin-left: 1vw;
+    padding-right: 30px;
+}
+.herofooter a{
+    color:#fff;
+    font-size: 1vw;
+    text-decoration: none;
+}
+.herofooter .arrow {
+    color: #020202;
+    display: flex;
+    font-size: 10px;
+    font-weight: 200;
+    justify-content: center;
+    gap:0.5vw;
+    text-decoration: none;
+}
+.arrow{
+    padding-right: 35px;
+}
+.arrow a{
+    color: black;
+}
+.herofooter .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #aca6a6;
+    display: flex;
+    justify-content: center;
+align-items: center;}
+
+.page2{
+    width:100%;
+    /* height: 100vh; */
+    padding-right:10vw;
+    padding-top:200px;
+    background-color: black;
+
+}
+.elem1 {
+    width:100%;
+    padding:4vw 3vw;
+    padding-right: 0;
+    border-top: 2px solid rgb(32, 32, 32);
+    background-color: black;
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.elem3{
+    width:100%;
+    padding:4vw 3vw;
+    padding-right: 0;
+    border-top: 2px solid rgb(32, 32, 32);
+    border-bottom: 2px solid rgb(32, 32, 32);
+
+    background-color: black;
+    color: white;
+    font-size: 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elem1  h5 , .elem3 h5 {
+    font-size: 1vw;
+}
+.elem1 img{
+    height: 140%;
+    position:absolute;
+    z-index: 999;
+    opacity:0}
+.elem3 img { height: 140%;
+    position:absolute;
+    z-index: 999;
+opacity:0}
+
+.about{
+    padding:10vw 5vw;
+    width:100%;
+    color: #fff;
+   
+    display: flex;
+    align-items: center;
+    gap:50px;
+    padding: 10vw 10vw;
+    padding-left: 40vw;
+}
+.about img{
+    width:200px;
+}
+.textabout{
+    width:35rem;
+}
+.textabout h5{
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-bottom: 10px;
+}
+.textabout p{
+    line-height: 2;
+    margin-bottom: 30px;
+}
+.textabout a{
+    padding:  12px  22px ;
+    color: #fff;
+    font-size: 12px;
+    border: 1.5px solid #fff;
+    border-radius:100px;
+    text-decoration: none;
+}
+.lt:hover{
+    transition:background-color('white');
+}
+
+
+
+
+.subscribemsg{
+    margin-top: 10vw;
+    width:100%;
+    padding-left:  32px;
+    line-height: 2;
+}
+.subscribemsg a{
+    text-decoration: none;
+    color:#fff
+}
+.footer{
+    margin-top: 10vw;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:28px 40px;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 28px;
+
+}
+.socialmda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+
+}
+
+/* features adding */
+.nav{
+    position: sticky;
+}
+.minicircle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 99999;
+    background-color: white;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    
+}
+.bounding{
+    width:fit-content;
+    overflow: hidden;
+}
