@@ -87,6 +87,7 @@ body{
 }
 .minihead{
     margin-top: 100px;
+    margin-bottom: 100px;
     padding-right: 35px;
     display: flex;
     flex-direction: column;
@@ -104,8 +105,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: absolute;
+    position: relative;
     bottom: 1vh;
+    margin-top: 100px;
     margin-left: 1vw;
     padding-right: 30px;
 }
@@ -279,3 +281,33 @@ opacity:0}
     width:fit-content;
     overflow: hidden;
 }
+.nav a{
+    
+    position: relative;
+}
+.nav a::after{
+    content: "";
+    height: 5px;
+    width:0;
+    position: absolute;
+    bottom:-10px;
+    left: 0;
+    
+    background-color:#fff;
+    opacity: 0;
+    transition: all 0.4s;
+    
+
+
+}
+.nav a:hover::after{
+    opacity: 1;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    font-size: 1.8vw;
+
+
+}
+
